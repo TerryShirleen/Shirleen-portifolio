@@ -37,6 +37,7 @@ section{
 }
 .about, .projects, .contact, footer{
     font-family: 'Poppins', sans-serif;
+    
 }
 .about .about-content,
 .projects .projects-content,
@@ -45,6 +46,7 @@ section{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    background-color: #ffe6e6;
 }
 section .title{
     position: relative;
@@ -164,7 +166,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("https://free4kwallpapers.com/uploads/originals/2022/07/16/-colorful-abstract-background-wallpaper.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -181,11 +183,13 @@ section .title::after{
 }
 .home .home-content .text-1{
     font-size: 27px;
+    color: #e71260;
 }
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
+    color: #e71260;
 }
 .home .home-content .text-3{
     font-size: 40px;
